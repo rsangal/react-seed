@@ -1,0 +1,228 @@
+/* colors */
+  /* pink:#DB3977
+    black:#1F2732
+    blue:#216699
+    turqoise:#00BEA3
+    offwhite:#FEFDF6 */
+
+/* LISTINGS */
+#content-area {
+  overflow: auto;
+  width: 100%;
+}
+#listings {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  float: right;
+}
+.listing-wrapper {
+  height: 100%;
+}
+.sort {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.sort .main-results {
+  font-size: 14px;
+  color: #216699;
+  display: inline-block;
+  width: 30%;
+  float: left;
+}
+.sort .sort-options {
+  float: right;
+  width: 20%;
+}
+.sort .sort-options select {
+  margin-bottom: 0px;
+  width: 40%;
+  font-size: 13px;
+  border: 1px solid black;
+}
+.sort .sort-options .view {
+  display: inline-block;
+  margin-left: 20px;
+}
+.view .fa {
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+/* Listing results */
+.list-results {
+  padding-top: 30px;
+}
+.bottom-row {
+  height: 100%;
+}
+.col-md-3 {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  padding:15px;
+}
+.col-lg-6 {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+}
+.col-md-9 {
+  width: 75%;
+  display: inline-block;
+}
+.col-md-12 {
+
+}
+.list-results .list {
+  background: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 9px 13px 0px rgba(179,179,179,1);
+  -moz-box-shadow: 0px 13px 9px 0px rgba(179,179,179,1);
+  box-shadow: 0px 9px 13px 0px rgba(179,179,179,1);
+}
+.list-img {
+  background: url(https://i.pinimg.com/originals/de/ef/7a/deef7a9070f5de8c52ff5f4f4aec1e79.png) no-repeat center center;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  height:140px;
+
+  /* padding: 15px; */
+  color: white;
+  /* position: relative; */
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.list-img:hover .details {
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+.list-img:hover .address {
+  opacity: 0;
+}
+.address {
+  position: absolute;
+  padding: 120px 0 0 10px;
+  opacity: 1;
+}
+.details {
+  opacity: 0;
+  /* position: absolute; */
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgb(219,57,119); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(219,57,119,.7) 0%, rgba(255,93,177,.7) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(219,57,119,.7) 0%,rgba(255,93,177,.7) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(219,57,119,.7) 0%,rgba(255,93,177,.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db3977', endColorstr='#ff5db1',GradientType=1 ); /* IE6-9 */
+}
+.user-img {
+  width: 36px;
+  height: 36px;
+  margin: -16px 0 0 -10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: inline-block;
+  background: url(https://media.npr.org/assets/img/2013/04/22/3264616-henry-david-thoreau_custom-9ae367cce97607ec7c89076878a316c8b4c48b7c-s800-c85.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.user-img:hover:active {
+  font-size: 40px;
+}
+.user-details {
+  vertical-align: top;
+  display: inline-block;
+  /* width: 70%;*/
+  margin-left: 20px;
+}
+.user-name {
+  color: white;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.post-date {
+  color: white;
+  opacity: .7;
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+}
+.list-details {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.list-details .fa {
+  display: inline-block;
+  margin-right: 14px;
+}
+.list-details span {
+  font-size: 12px;
+  padding-right: 4px;
+  font-weight: 300;
+  vertical-align: middle;
+  position: relative;
+}
+.bottom-info {
+  padding: 20px 15px;
+}
+.price {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  color: grey;
+}
+.location {
+  font-size: 16px;
+  display: block;
+  color: grey;
+}
+.location .fa {
+  color: #216699;
+  padding-right: 10px
+}
+
+#pagination {
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  display: block;
+  margin-top: 30px;
+}
+#pagination .pages {
+  display: inline-block;
+  -webkit-box-shadow: 0px 9px 13px 0px rgba(179,179,179,1);
+  -moz-box-shadow: 0px 13px 9px 0px rgba(179,179,179,1);
+  box-shadow: 0px 9px 13px 0px rgba(179,179,179,1);
+}
+#pagination .pages li {
+  display: inline-block;
+  padding: 20px 30px;
+}
+#pagination .pages li:hover {
+  cursor: pointer;
+  color: white;
+  background: lightgrey;
+  transition: .2s ease-in-out;
+}
+#pagination .pages .active {
+  border-bottom: 3px solid #DB3977;
+}
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,61 @@
+header {
+  background: white;
+  width: 100%;
+  overflow: auto;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+header .logo {
+  float: left;
+  width: 33%;
+  color: #1F2732;
+  font-size: 34px;
+  font-family: 'Bad Script', cursive;
+  margin: -14px 0 -30px 0;
+}
+header .logo .home {
+    font-family: 'Bad Script', cursive;
+    color: #DB3977;
+}
+.search-area  {
+  width: 33%;
+  float: left;
+  margin-bottom: -18px;
+}
+.search-area input[type="text"] {
+  width: 100%;
+  background:transparent;
+  font-size: 20px;
+  font-weight: 300;
+  float: right;
+  text-align: center;
+  border: none;
+}
+.search-area input::placeholder {
+  color: lightgrey;
+}
+header nav {
+  float: right;
+  padding-top: 8px;
+  font-size: 18px;
+}
+header a {
+  color: #1F2732;
+  text-decoration: none;
+  margin: -6px 0 0 30px;
+}
+header a:hover {
+  color: #DB3977;
+  transition: .2s ease-in-out;
+}
+header .signup-button {
+  background: #216699;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+header .signup-button:hover {
+  background: #DB3977;
+  color: white;
+}
