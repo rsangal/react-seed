@@ -28,7 +28,7 @@ var listingsData = [
   },
   {
     address: "4 Henry Rd.",
-    neighborhood: "Oakville",
+    neighborhood: "Oakville XYZ",
     date: '9/27/2019',
     state: 'MO',
     rooms: 3,
@@ -114,7 +114,7 @@ var listingsData = [
   },
   {
     address: "10 Huntsport Rd.",
-    neighborhood: 'Oakville',
+    neighborhood: 'Oakville XYZ',
     date: '8/30/2019',
     state: 'MO',
     rooms: 2,
